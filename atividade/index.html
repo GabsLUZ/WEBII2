@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="imagem-centro">
+        <img src="../atividade/imagens/combustivel.png" alt="Imagem no centro da página">
+    </div>
+    <h2>Você sabe com qual Combustível compensa mais abastecer seu carro ? <br>
+    Utiliza a Calculadora a baixo:</h2>
+    <form>
+      <label for="precoGasolina">Preço da Gasolina:</label>
+      <input type="number" id="precoGasolina" name="precoGasolina" step="0.01"><br>
+      <label for="precoAlcool">Preço do Álcool:</label>
+      <input type="number" id="precoAlcool" name="precoAlcool" step="0.01"><br>
+      <button type="button" id="botaoCalcular">Calcular</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
